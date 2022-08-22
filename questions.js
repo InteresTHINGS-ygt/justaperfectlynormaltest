@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Often considered as smart by others.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "May fear sickness and accidental/early death.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Highly caring and wants to help humanity.",
         "effect": {
             "econ": -10,
             "dipl": 0,

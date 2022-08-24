@@ -1,5 +1,20 @@
+@font-face {
+  font-family: cga;
+  src: url(font.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(font2.ttf);
+}
+
+@font-face {
+  font-family: chicago;
+  src: url(ChicagoFLF.ttf);
+}
+
 html {
-    background-color: #bbbbbb;
+    background-color: #000000;
     padding: 0px;
     scroll-behavior: smooth;
 }
@@ -8,18 +23,27 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
-    border-color: #eeeeee;
+    background-color: #000000;
+    border-color: #000000;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
 }
 p {
-    color: #444444;
-    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-family: 'font2', sans-serif;
     font-size: 18.5pt;
     line-height: 1.15;
     margin: 4pt;
+}
+
+a {
+    text-align: center;
+    color: #00ff00;
+    font-family: 'font2', sans-serif;
+    font-size: 25pt;
+    line-height: 1.15;
+    margin: 40pt;
 }
 
 p.value {
@@ -30,26 +54,26 @@ p.value {
     font-size: 24pt;
     line-height: 2.11666656px;
     letter-spacing: 0.03em;
-    font-family: 'Montserrat';
+    font-family: 'font2';
 }
 
 p.axis_name {
     margin-top: 50px;
     color: #333333;
     font-size: 19pt;
-    font-family: 'Montserrat';
+    font-family: 'font2';
 }
 p.question {
     margin: 16pt auto;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
+    color: #00f7ff;
+    font-family: 'font2', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
     min-height: 144pt;
-    background-color: #eeeeee;
+    background-color: #236300;
     padding: 16pt;
-    border-radius: 16pt;
+    border-radius: 0pt;
     font-size: 36pt;
     display: flex;
     justify-content: center;
@@ -58,8 +82,8 @@ p.question {
 
 }
 h1 {
-    color: #222222;
-    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-family: 'font2', sans-serif;
     font-size: 72pt;
     text-align: center;
     line-height: 72pt;
@@ -67,8 +91,8 @@ h1 {
     margin-bottom: 0pt;
 }
 h2 {
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-family: 'font2', sans-serif;
     font-size: 34pt;
     line-height: 36pt;
     margin-top: 12pt;
@@ -79,12 +103,12 @@ li {
     text-indent: 16pt;
 }
 a {
-    font-family: inherit;
+    font-family: font2;
 }
 div.center {
-    background-color: #eeeeee;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 8pt;
+    background-color: #236300;
+    font-family: 'font2', sans-serif;
+    border-radius: 0pt;
     padding: 6pt;
     color: white;
     width: 50%;
@@ -108,7 +132,7 @@ div.quadcolumn {
 div.axis_name {
     color: #333333;
     font-size: 19pt;
-    font-family: 'Montserrat';
+    font-family: 'font2';
     display: inline-block;
     padding-bottom: 8.65pt;
 }
@@ -123,37 +147,37 @@ div.axis_name {
 }
 .button {
     background-color: #2196f3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'font2', sans-serif;
     border: none;
-    border-radius: 8pt;
+    border-radius: 0pt;
     color: white;
-    padding: 8pt;
+    padding: 12pt;
     width: 50%;
     min-width: 500pt;
     text-align: center;
     text-decoration: none;
     display: block;
     font-size: 24pt;
-    margin: -2px auto;
+    margin: 0px auto;
     cursor: pointer;
 }
 .button:hover, .button:focus { background: #1687e0; }
-.stronglyAgree { background: #1b5e20; }
-.stronglyAgree:hover, .stronglyAgree:focus { background: #154a19; }
-.agree { background: #4caf50; }
-.agree:hover, .agree:focus { background: #29942e; }
-.neutral { background: #949494; }
-.neutral:hover, .neutral:focus { background: #656565; }
-.disagree { background: #f44336; }
-.disagree:hover, .disagree:focus { background: #d6271a; }
-.stronglyDisagree { background: #b71c1c; }
-.stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00e0e; }
+.stronglyAgree { background: #005e00; }
+.stronglyAgree:hover, .stronglyAgree:focus { background: #004a00; }
+.agree { background: #00af00; }
+.agree:hover, .agree:focus { background: #009400; }
+.neutral { background: #888888; }
+.neutral:hover, .neutral:focus { background: #555555; }
+.disagree { background: #f40000; }
+.disagree:hover, .disagree:focus { background: #d60000; }
+.stronglyDisagree { background: #b70000; }
+.stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00000; }
 
 .small_button, .small_button_off {
     background-color: #333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'font2', sans-serif;
     border: none;
-    border-radius: 8pt;
+    border-radius: 0pt;
     color: white;
     padding: 8pt;
     width: 10%;
@@ -171,9 +195,8 @@ div.axis_name {
 }
 
 .small_button_off {
-    background-color: #ddd;
+    background-color: #333;
     color: #888;
-    border: 2px solid #888;
     cursor: not-allowed;
     margin: -4px auto;
 }
@@ -211,75 +234,33 @@ div.bar {
     margin-bottom: 4pt;
     border-width: 4px;
     border-right-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
     border-color: #222222;
     background-color: #eeeeee;
     display: block;
     width: 50%;
 }
 div.text-wrapper {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'font2', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    color: #222222;
+    color: #00f7ff;
     display: inline-block;
 }
-div.equality {
-    background-color: #f44336;
-    text-align: left;
-    border-right-style: solid;
-}
-div.wealth {
-    background-color: #00897b;
+div.similarity {
+    background-color: #236300;
     text-align: right;
-    border-left-style: solid;
 }
-div.liberty {
-    background-color: #ffeb3b;
-    text-align: left;
-    border-right-style: solid;
-}
-div.authority {
-    background-color: #3f51b5;
+div.difference {
+    background-color: #222222;
     text-align: right;
-    border-left-style: solid;
 }
-div.peace {
-    background-color: #03a9f4;
-    text-align: right;
-    border-left-style: solid;
-}
-div.might {
-    background-color: #ff9800;
-    text-align: left;
-    border-right-style: solid;
-}
-div.progress {
-    background-color: #9c27b0;
-    text-align: right;
-    border-left-style: solid;
-}
-div.tradition {
-    background-color: #8bc34a;
-    text-align: left;
-    border-right-style: solid;
-}
+
 span.weight-300 {
     font-weight: 300;
 }
 .explanation_bg {
     background-color: #eeeeee;
-    border-radius: 25px;
+    border-radius: 0px;
     margin-top: 15px;
 }
-#banner {
-    border-color: #444444;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 8pt;
-    display: block;
-    margin: 8pt;
-    margin-left: auto;
-    margin-right: auto;
-}
+

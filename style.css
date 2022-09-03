@@ -97,6 +97,7 @@ h2 {
     line-height: 36pt;
     margin-top: 12pt;
     margin-bottom: 10pt;
+    font-weight: normal;
 }
 li {
     font-size: 16pt;
@@ -243,16 +244,17 @@ div.text-wrapper {
     font-family: 'font2', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    color: #00f7ff;
     display: inline-block;
 }
 div.similarity {
     background-color: #236300;
     text-align: right;
+    color: #00f7ff;
 }
 div.difference {
-    background-color: #222222;
+    background-color: #000000;
     text-align: right;
+    color: #000000;
 }
 
 span.weight-300 {

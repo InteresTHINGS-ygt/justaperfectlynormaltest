@@ -163,16 +163,16 @@ div.axis_name {
     cursor: pointer;
 }
 .button:hover, .button:focus { background: #1687e0; }
-.stronglyAgree { background: #005e00; }
-.stronglyAgree:hover, .stronglyAgree:focus { background: #004a00; }
-.agree { background: #00af00; }
-.agree:hover, .agree:focus { background: #009400; }
-.neutral { background: #888888; }
-.neutral:hover, .neutral:focus { background: #555555; }
-.disagree { background: #f40000; }
-.disagree:hover, .disagree:focus { background: #d60000; }
-.stronglyDisagree { background: #b70000; }
-.stronglyDisagree:hover, .stronglyDisagree:focus { background: #a00000; }
+.stronglyAgree { background: #00d1bc; }
+.stronglyAgree:hover, .stronglyAgree:focus { background: #00ad9c; }
+.agree { background: #07ab7f; }
+.agree:hover, .agree:focus { background: #058563; }
+.neutral { background: #3d8566; }
+.neutral:hover, .neutral:focus { background: #2d634c; }
+.disagree { background: #5c6963; }
+.disagree:hover, .disagree:focus { background: #454f4b; }
+.stronglyDisagree { background: #2e2e2e; }
+.stronglyDisagree:hover, .stronglyDisagree:focus { background: #1c1c1c; }
 
 .small_button, .small_button_off {
     background-color: #333;

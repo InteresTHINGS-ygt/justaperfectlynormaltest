@@ -1,182 +1,302 @@
 questions = [
     {
-        "question": "Often considered as smart by others.",
+        "question": "I am often considered as smart by others.",
         "effect": {
             "res": 1.5
         }
     },
     {
-        "question": "May fear sickness and accidental/early death.",
+        "question": "I am considered as tech-savvy.",
         "effect": {
             "res": 1.5
         }
     },
     {
-        "question": "Highly caring and wants to help humanity.",
+        "question": "I dislike being forced to do things if there’s no logical reason.",
         "effect": {
             "res": -1.5
         }
     },
    {
-        "question": "Considered as funny by others. ",
+        "question": "I have a great memory for the things I’m interested in.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Often annoyed by cigarette smoke/smoking. ",
+        "question": "I may sometimes struggle with deadlines or logistical work.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Uses computers and other tech well. ",
+        "question": "I have a high level of intellectual curiosity.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Hates being forced to do anything, has own rules.",
+        "question": "I want to be good at everything but also be a master of some.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Neither extroverted nor introverted.  (ambivert)",
+        "question": "I tend to dash/dance around energetically.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "I have a good memory for the things I'm interested in. ",
+        "question": "I am fascinated by strange places and liminal spaces.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "I can be forgetful about things that don't interest me. ",
+        "question": "I care a lot about strength training and fitness.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Has a high level of intellectual curiosity. ",
+        "question": "I love swimming and playing with water, especially during summer!",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Does not need too much order to work effectively.",
+        "question": "I try to understand myself and my feelings.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Can get emotionally unstable at times. ",
+        "question": "I enjoy researching about what object would I be according to my personality, such as what coffee would I be.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Wants to be good at everything but also be a master of some. ",
+        "question": "I have a great interest in digital art.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "Doesn't prefer soft drinks such as Coca-Cola. ",
+        "question": "Technological advancement is essential and required.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I can get high exam scores with a lil’ bit of studying.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I may sometimes make weird or interesting shapes with my fingers.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I like running virtual machines and emulators.",
+        "effect": {
+            "res": -1.5
+        }
+    },
+   {
+        "question": "I really like the Rubik’s Cube and other twisty puzzles.",
         "effect": {
             "res": 1.5
         }
     },
    {
-        "question": "May dash/pace around due to various reasons. ",
+        "question": "I often imagine myself in video games.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Fascinated by strange places/liminal spaces. ",
+        "question": "I have a passion for visual effects and shaders.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Cares a lot about building muscle/strength training. ",
+        "question": "I am highly interested in psychological theories, such as MBTI or Big Five.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Loves swimming and playing with water. ",
+        "question": "I sometimes think being organized is overrated.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Often relates to characters, either in real life or fiction. ",
+        "question": "I am highly motivated by helping humanity.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Enjoys searching for identity/personality. ",
+        "question": "Even though I am considered as funny, I see myself as more of a serious person.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Has high interest in digital art. ",
+        "question": "I love trying out varieties of coffee.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Gets high exam scores with a lil' bit of studying. ",
+        "question": "Learning languages and being multilingual is very important for me.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Tends to make/draw weird shapes with hands, and often accused of it.",
+        "question": "I try to figure it out on my own, and I don’t seek help unless I really need it.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Likes running virtual machines/emulators. ",
+        "question": "I take interest in retro stuff, such as vaporwave or 8-bit.",
         "effect": {
-            "res": 3.75
+            "res": 1.5
         }
     },
    {
-        "question": "Has a great time with the Rubik's Cube. (Exactly Me = Can solve it in less than a minute)",
+        "question": "I try to systematically face my fears instead of avoiding them.",
         "effect": {
-            "res": 8
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I am fascinated by the space and the universe.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "Exchanging the world is not just an opportunity, it is a requirement.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I may sometimes jump on to opportunities too quickly.",
+        "effect": {
+            "res": -1.5
         }
     },
    {
-        "question": "Often imagines self in video games, and adds own concepts to real world in mind.",
+        "question": "I love fluorescent colors and light shows.",
         "effect": {
-            "res": 8
+            "res": 1.5
         }
     },
    {
-        "question": "Has a love for shaders and visual effects, and tends to imagine them.",
+        "question": "I am not too fond of most cheese.",
         "effect": {
-            "res": 8
+            "res": 1.5
         }
     },
    {
-        "question": "Great at Geometry Dash. (Exactly Me = I have beaten at least Insane levels!)",
+        "question": "Shorts with long socks is not weird, but amazing!",
         "effect": {
-            "res": 8
+            "res": 1.5
         }
     },
    {
-        "question": "Is highly interested in personality theories, such as MBTI.",
+        "question": "I consider myself as an average person, but others see me as anything but average.",
         "effect": {
-            "res": 8
+            "res": 1.5
+        }
+    },
+   {
+        "question": "I may sometimes talk to, and welcome strangers.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+   {
+        "question": "I experience my emotions intensely.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+   {
+        "question": "I take interest in higher dimensional objects.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+   {
+        "question": "I take interest in brick-breaker style games.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+   {
+        "question": "I may procrastinate, then do the work at lightning speed.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+   {
+        "question": "Glitch effect is an amazing effect to have!",
+        "effect": {
+            "res": 1.5
+        }
+    },
+   {
+        "question": "I prioritize hardware features over the operating system while buying a new gadget.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+   {
+        "question": "I prefer sandbox games like Minecraft rather than first person shooters.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I am admired for my ability to connect seemingly unrelated concepts together.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I can relive my favorite memories vividly.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I may stress test certain objects or gadgets.",
+        "effect": {
+            "res": -1.5
+        }
+    },
+   {
+        "question": "I have a great passion for medicine.",
+        "effect": {
+            "res": 1.5
+        }
+    },
+    {
+        "question": "I can be somewhat of a perfectionist.",
+        "effect": {
+            "res": 1.5
         }
     }
 ]

@@ -65,7 +65,7 @@ p.axis_name {
 }
 p.question {
     margin: 16pt auto;
-    color: #00f7ff;
+    color: #ffb300;
     font-family: 'font2', sans-serif;
     font-weight: normal;
     width: 70%;
@@ -74,7 +74,7 @@ p.question {
     background-color: #236300;
     padding: 16pt;
     border-radius: 0pt;
-    font-size: 36pt;
+    font-size: 48pt;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,10 +165,10 @@ div.axis_name {
 .button:hover, .button:focus { background: #1687e0; }
 .stronglyAgree { background: #00d1bc; }
 .stronglyAgree:hover, .stronglyAgree:focus { background: #00ad9c; }
-.agree { background: #07ab7f; }
-.agree:hover, .agree:focus { background: #058563; }
-.neutral { background: #3d8566; }
-.neutral:hover, .neutral:focus { background: #2d634c; }
+.agree { background: #07ab90; }
+.agree:hover, .agree:focus { background: #088772; }
+.neutral { background: #447560; }
+.neutral:hover, .neutral:focus { background: #365e4d; }
 .disagree { background: #5c6963; }
 .disagree:hover, .disagree:focus { background: #454f4b; }
 .stronglyDisagree { background: #2e2e2e; }

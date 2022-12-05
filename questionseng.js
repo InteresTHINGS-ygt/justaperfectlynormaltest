@@ -14,7 +14,7 @@ questions = [
     {
         "question": "I dislike being forced to do things if there’s no logical reason.",
         "effect": {
-            "res": -1.5
+            "res": 1.5
         }
     },
    {
@@ -104,7 +104,7 @@ questions = [
     {
         "question": "I like running virtual machines and emulators.",
         "effect": {
-            "res": -1.5
+            "res": 1.5
         }
     },
    {
@@ -194,7 +194,7 @@ questions = [
     {
         "question": "I may sometimes jump on to opportunities too quickly.",
         "effect": {
-            "res": -1.5
+            "res": 1.5
         }
     },
    {
@@ -284,7 +284,7 @@ questions = [
     {
         "question": "I may stress test certain objects or gadgets.",
         "effect": {
-            "res": -1.5
+            "res": 1.5
         }
     },
    {
